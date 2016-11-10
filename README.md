@@ -5,6 +5,19 @@ Auto Completion the getter of property (Xcode8 Editor Extension)
 <br/>
 <br/>
 <img  src="demo.gif"  alt="demo.gif" />
+#Install
+Download, unzip and run <a href ="https://github.com/keepyounger/AutoCompletion/blob/master/AutoCompletion.zip?raw=true"> AutoCompletion </a> <br/>
+(OSX 10.11 only) sudo /usr/libexec/xpccachectl<br/>
+ -> System Preferences... -> Extensions -> All -> Enable AutoCompletion<br/>
+You can set a shortcut (Key-Binding) for AutoCompletion using Xcode.<br/>
+Xcode -> Preferences... -> Key Bindings (Filter "AutoCompletion")<br/>
+
+下载, 解压 并运行 <a href ="https://github.com/keepyounger/AutoCompletion/blob/master/AutoCompletion.zip?raw=true"> AutoCompletion </a> <br/>
+在OSX 10.11 上 需要先执行Command: sudo /usr/libexec/xpccachectl<br/>
+ -> 系统偏好设置...-> 扩展-> 全部 -> 勾选AutoCompletion<br/>
+你可以用Xcode设置快捷键。<br/>
+Xcode -> Preferences... -> Key Bindings (Filter "AutoCompletion")<br/>
+
 #Download
 <a href ="https://github.com/keepyounger/AutoCompletion/blob/master/AutoCompletion.zip?raw=true"> AutoCompletion </a> <br/>
 
