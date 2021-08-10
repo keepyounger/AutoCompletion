@@ -118,10 +118,10 @@
     [self.buffer.lines removeObjectAtIndex:lineNum];
     [self.buffer.lines insertObject:replaceContent atIndex:lineNum];
     
-    //添加新的选中区域 注意如果不添加 Xcode 会在丢失选中后崩溃 可能是Xcode的bug
-    XCSourceTextRange *selection = [[XCSourceTextRange alloc] initWithStart:XCSourceTextPositionMake(0, 0) end:XCSourceTextPositionMake(0, 0)];
-    [self.buffer.selections removeAllObjects];
-    [self.buffer.selections insertObject:selection atIndex:0];
+    //添加新的选中区域 注意如果不添加 Xcode 会在丢失选中后崩溃 可能是Xcode的bug 新版本xcode已修复此问题
+//    XCSourceTextRange *selection = [[XCSourceTextRange alloc] initWithStart:XCSourceTextPositionMake(0, 0) end:XCSourceTextPositionMake(0, 0)];
+//    [self.buffer.selections removeAllObjects];
+//    [self.buffer.selections insertObject:selection atIndex:0];
     
 }
 
